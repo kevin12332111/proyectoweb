@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     if (username === validUsername && password === validPassword) {
         alert("Inicio de sesión exitoso!");
         // Aquí puedes redirigir al usuario a otra página o realizar otras acciones
-        window.location.href = "dashboard.html"; // Ejemplo de redirección
+        window.location.href = "paginas secundarias/paginadeinicio.html"; // Ejemplo de redirección
     } else {
         document.getElementById("error-message").textContent = "Usuario o contraseña incorrectos.";
     }
